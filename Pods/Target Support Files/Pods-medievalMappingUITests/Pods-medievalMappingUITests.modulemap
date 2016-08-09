@@ -1,0 +1,6 @@
+framework module Pods_medievalMappingUITests {
+  umbrella header "Pods-medievalMappingUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

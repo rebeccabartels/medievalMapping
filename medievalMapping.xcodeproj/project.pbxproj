@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		432760271D50FE92008B1000 /* Houses.json in Resources */ = {isa = PBXBuildFile; fileRef = 432760261D50FE92008B1000 /* Houses.json */; };
+		4353602A1D537DBB0091D034 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435360291D537DBB0091D034 /* CollectionViewController.swift */; };
 		43867CA91D47980B00D62DEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43867CA81D47980B00D62DEF /* AppDelegate.swift */; };
-		43867CAB1D47980B00D62DEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43867CAA1D47980B00D62DEF /* ViewController.swift */; };
+		43867CAB1D47980B00D62DEF /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43867CAA1D47980B00D62DEF /* FirstTableViewController.swift */; };
 		43867CAE1D47980B00D62DEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43867CAC1D47980B00D62DEF /* Main.storyboard */; };
 		43867CB01D47980B00D62DEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43867CAF1D47980B00D62DEF /* Assets.xcassets */; };
 		43867CB31D47980B00D62DEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43867CB11D47980B00D62DEF /* LaunchScreen.storyboard */; };
 		43867CBE1D47980B00D62DEF /* medievalMappingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43867CBD1D47980B00D62DEF /* medievalMappingTests.swift */; };
 		43867CC91D47980B00D62DEF /* medievalMappingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43867CC81D47980B00D62DEF /* medievalMappingUITests.swift */; };
+		438897401D5A5AC800632953 /* finishedEnglishHouses.json in Resources */ = {isa = PBXBuildFile; fileRef = 4388973F1D5A5AC800632953 /* finishedEnglishHouses.json */; };
+		43FDFA801D4A8984008EB616 /* EnglishData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FDFA7F1D4A8984008EB616 /* EnglishData.swift */; };
+		5FE6F63C4B59951FB5EE3C08 /* Pods_medievalMappingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE6A100E6BF5CCE0DEEBEBDD /* Pods_medievalMappingTests.framework */; };
+		D35A2BC58B6A24F9D3E0F0BF /* Pods_medievalMappingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03F6C4464D8D2CB82C581B0 /* Pods_medievalMappingUITests.framework */; };
+		F5BE92E658BEA80D0B698498 /* Pods_medievalMapping.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5EC27C4DA5D4844D662E67 /* Pods_medievalMapping.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2904CA0A9F6D7A02AAEFAC82 /* Pods-medievalMapping.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-medievalMapping.release.xcconfig"; path = "Pods/Target Support Files/Pods-medievalMapping/Pods-medievalMapping.release.xcconfig"; sourceTree = "<group>"; };
+		29B692C851ED619F81A808B1 /* Pods-medievalMapping.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-medievalMapping.debug.xcconfig"; path = "Pods/Target Support Files/Pods-medievalMapping/Pods-medievalMapping.debug.xcconfig"; sourceTree = "<group>"; };
+		2C3F4253F3A81A94D3A82BCB /* Pods-medievalMappingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-medievalMappingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-medievalMappingUITests/Pods-medievalMappingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		432760261D50FE92008B1000 /* Houses.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Houses.json; sourceTree = "<group>"; };
+		435360291D537DBB0091D034 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		43867CA51D47980B00D62DEF /* medievalMapping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = medievalMapping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43867CA81D47980B00D62DEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		43867CAA1D47980B00D62DEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43867CAA1D47980B00D62DEF /* FirstTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
 		43867CAD1D47980B00D62DEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43867CAF1D47980B00D62DEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43867CB21D47980B00D62DEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +59,14 @@
 		43867CC41D47980B00D62DEF /* medievalMappingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = medievalMappingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43867CC81D47980B00D62DEF /* medievalMappingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medievalMappingUITests.swift; sourceTree = "<group>"; };
 		43867CCA1D47980B00D62DEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4388973F1D5A5AC800632953 /* finishedEnglishHouses.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = finishedEnglishHouses.json; sourceTree = "<group>"; };
+		43FDFA7F1D4A8984008EB616 /* EnglishData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnglishData.swift; sourceTree = "<group>"; };
+		7388C87E14FA0B120C3444E3 /* Pods-medievalMappingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-medievalMappingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-medievalMappingTests/Pods-medievalMappingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE6A100E6BF5CCE0DEEBEBDD /* Pods_medievalMappingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_medievalMappingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4F85C1C5257CD0C8912A587 /* Pods-medievalMappingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-medievalMappingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-medievalMappingUITests/Pods-medievalMappingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C6403A5E8038134FA806911B /* Pods-medievalMappingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-medievalMappingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-medievalMappingTests/Pods-medievalMappingTests.release.xcconfig"; sourceTree = "<group>"; };
+		CE5EC27C4DA5D4844D662E67 /* Pods_medievalMapping.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_medievalMapping.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03F6C4464D8D2CB82C581B0 /* Pods_medievalMappingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_medievalMappingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5BE92E658BEA80D0B698498 /* Pods_medievalMapping.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FE6F63C4B59951FB5EE3C08 /* Pods_medievalMappingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +90,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D35A2BC58B6A24F9D3E0F0BF /* Pods_medievalMappingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25111791CEDE169CEA1E41BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29B692C851ED619F81A808B1 /* Pods-medievalMapping.debug.xcconfig */,
+				2904CA0A9F6D7A02AAEFAC82 /* Pods-medievalMapping.release.xcconfig */,
+				7388C87E14FA0B120C3444E3 /* Pods-medievalMappingTests.debug.xcconfig */,
+				C6403A5E8038134FA806911B /* Pods-medievalMappingTests.release.xcconfig */,
+				2C3F4253F3A81A94D3A82BCB /* Pods-medievalMappingUITests.debug.xcconfig */,
+				C4F85C1C5257CD0C8912A587 /* Pods-medievalMappingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		43867C9C1D47980B00D62DEF = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +117,8 @@
 				43867CBC1D47980B00D62DEF /* medievalMappingTests */,
 				43867CC71D47980B00D62DEF /* medievalMappingUITests */,
 				43867CA61D47980B00D62DEF /* Products */,
+				25111791CEDE169CEA1E41BC /* Pods */,
+				641256A594063EE0202742EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +135,15 @@
 		43867CA71D47980B00D62DEF /* medievalMapping */ = {
 			isa = PBXGroup;
 			children = (
+				43FDFA811D4A8AC0008EB616 /* HistoricalData */,
 				43867CA81D47980B00D62DEF /* AppDelegate.swift */,
-				43867CAA1D47980B00D62DEF /* ViewController.swift */,
+				435360291D537DBB0091D034 /* CollectionViewController.swift */,
+				43867CAA1D47980B00D62DEF /* FirstTableViewController.swift */,
 				43867CAC1D47980B00D62DEF /* Main.storyboard */,
 				43867CAF1D47980B00D62DEF /* Assets.xcassets */,
 				43867CB11D47980B00D62DEF /* LaunchScreen.storyboard */,
+				432760261D50FE92008B1000 /* Houses.json */,
+				4388973F1D5A5AC800632953 /* finishedEnglishHouses.json */,
 				43867CB41D47980B00D62DEF /* Info.plist */,
 			);
 			path = medievalMapping;
@@ -125,6 +167,24 @@
 			path = medievalMappingUITests;
 			sourceTree = "<group>";
 		};
+		43FDFA811D4A8AC0008EB616 /* HistoricalData */ = {
+			isa = PBXGroup;
+			children = (
+				43FDFA7F1D4A8984008EB616 /* EnglishData.swift */,
+			);
+			name = HistoricalData;
+			sourceTree = "<group>";
+		};
+		641256A594063EE0202742EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE5EC27C4DA5D4844D662E67 /* Pods_medievalMapping.framework */,
+				BE6A100E6BF5CCE0DEEBEBDD /* Pods_medievalMappingTests.framework */,
+				D03F6C4464D8D2CB82C581B0 /* Pods_medievalMappingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43867CCD1D47980B00D62DEF /* Build configuration list for PBXNativeTarget "medievalMapping" */;
 			buildPhases = (
+				182CA81B36D0677DA20F2809 /* [CP] Check Pods Manifest.lock */,
 				43867CA11D47980B00D62DEF /* Sources */,
 				43867CA21D47980B00D62DEF /* Frameworks */,
 				43867CA31D47980B00D62DEF /* Resources */,
+				F04B9DAC82642DC7F540FCAB /* [CP] Embed Pods Frameworks */,
+				51D42DAD11401C6420375605 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43867CD01D47980B00D62DEF /* Build configuration list for PBXNativeTarget "medievalMappingTests" */;
 			buildPhases = (
+				6EBA8785FB9E881EC4345800 /* [CP] Check Pods Manifest.lock */,
 				43867CB51D47980B00D62DEF /* Sources */,
 				43867CB61D47980B00D62DEF /* Frameworks */,
 				43867CB71D47980B00D62DEF /* Resources */,
+				916310C460EC2A89F29C68C9 /* [CP] Embed Pods Frameworks */,
+				BF89DD67E5544A42F7DF068C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43867CD31D47980B00D62DEF /* Build configuration list for PBXNativeTarget "medievalMappingUITests" */;
 			buildPhases = (
+				3B65A570CF62B7D2950F2C88 /* [CP] Check Pods Manifest.lock */,
 				43867CC01D47980B00D62DEF /* Sources */,
 				43867CC11D47980B00D62DEF /* Frameworks */,
 				43867CC21D47980B00D62DEF /* Resources */,
+				3879FB10B5E5F580BDD7C4DE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,8 +298,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				43867CB31D47980B00D62DEF /* LaunchScreen.storyboard in Resources */,
+				432760271D50FE92008B1000 /* Houses.json in Resources */,
 				43867CB01D47980B00D62DEF /* Assets.xcassets in Resources */,
 				43867CAE1D47980B00D62DEF /* Main.storyboard in Resources */,
+				438897401D5A5AC800632953 /* finishedEnglishHouses.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +321,138 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		182CA81B36D0677DA20F2809 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3879FB10B5E5F580BDD7C4DE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-medievalMappingUITests/Pods-medievalMappingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B65A570CF62B7D2950F2C88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		51D42DAD11401C6420375605 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-medievalMapping/Pods-medievalMapping-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EBA8785FB9E881EC4345800 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		916310C460EC2A89F29C68C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-medievalMappingTests/Pods-medievalMappingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF89DD67E5544A42F7DF068C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-medievalMappingTests/Pods-medievalMappingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F04B9DAC82642DC7F540FCAB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-medievalMapping/Pods-medievalMapping-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		43867CA11D47980B00D62DEF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43867CAB1D47980B00D62DEF /* ViewController.swift in Sources */,
+				43FDFA801D4A8984008EB616 /* EnglishData.swift in Sources */,
+				43867CAB1D47980B00D62DEF /* FirstTableViewController.swift in Sources */,
 				43867CA91D47980B00D62DEF /* AppDelegate.swift in Sources */,
+				4353602A1D537DBB0091D034 /* CollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +594,7 @@
 		};
 		43867CCE1D47980B00D62DEF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29B692C851ED619F81A808B1 /* Pods-medievalMapping.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = medievalMapping/Info.plist;
@@ -410,6 +606,7 @@
 		};
 		43867CCF1D47980B00D62DEF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2904CA0A9F6D7A02AAEFAC82 /* Pods-medievalMapping.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = medievalMapping/Info.plist;
@@ -421,6 +618,7 @@
 		};
 		43867CD11D47980B00D62DEF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7388C87E14FA0B120C3444E3 /* Pods-medievalMappingTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = medievalMappingTests/Info.plist;
@@ -433,6 +631,7 @@
 		};
 		43867CD21D47980B00D62DEF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6403A5E8038134FA806911B /* Pods-medievalMappingTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = medievalMappingTests/Info.plist;
@@ -445,6 +644,7 @@
 		};
 		43867CD41D47980B00D62DEF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C3F4253F3A81A94D3A82BCB /* Pods-medievalMappingUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = medievalMappingUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,6 +656,7 @@
 		};
 		43867CD51D47980B00D62DEF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4F85C1C5257CD0C8912A587 /* Pods-medievalMappingUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = medievalMappingUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +685,7 @@
 				43867CCF1D47980B00D62DEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43867CD01D47980B00D62DEF /* Build configuration list for PBXNativeTarget "medievalMappingTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +694,7 @@
 				43867CD21D47980B00D62DEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43867CD31D47980B00D62DEF /* Build configuration list for PBXNativeTarget "medievalMappingUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +703,7 @@
 				43867CD51D47980B00D62DEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

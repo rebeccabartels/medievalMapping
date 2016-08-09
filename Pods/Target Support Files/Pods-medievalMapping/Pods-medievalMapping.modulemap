@@ -1,0 +1,6 @@
+framework module Pods_medievalMapping {
+  umbrella header "Pods-medievalMapping-umbrella.h"
+
+  export *
+  module * { export * }
+}

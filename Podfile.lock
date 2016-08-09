@@ -1,0 +1,15 @@
+PODS:
+  - SACollectionViewVerticalScalingFlowLayout (2.2.0)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - SACollectionViewVerticalScalingFlowLayout (~> 2.2)
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  SACollectionViewVerticalScalingFlowLayout: 0a963e11d7d98c25dfc08ab888990611606260fc
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+PODFILE CHECKSUM: 460e94be2be7bee237b9fb58f200671cc65d3f8a
+
+COCOAPODS: 1.0.1

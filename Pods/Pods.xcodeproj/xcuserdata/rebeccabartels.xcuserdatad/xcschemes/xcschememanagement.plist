@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-medievalMapping.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-medievalMappingTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-medievalMappingUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SACollectionViewVerticalScalingFlowLayout.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftyJSON.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>205F3896B7D7B18588689DA5664E2A06</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4075E162260F56773A9944BD7B01B5C4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>578CBA22EBFBF47844F9F5E377E4539F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6721940454F608073031CA5E4B637843</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FBD894194A7C7B14BBA1568E9FB3DABF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
