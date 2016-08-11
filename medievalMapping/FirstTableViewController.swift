@@ -15,25 +15,31 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
     
     var tableView: UITableView  =   UITableView()
     
-    var regions = [] 
+    var regions = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         readJsonFromFile()
         
-        let test = englishData.init()
-        let testDictionary = test.houses
-        guard let englandInfo = testDictionary["England"] else{return}
-        guard let wessexInfo = englandInfo["Wessex"] else{return}
-        print(wessexInfo)
-        let alfredInfo = wessexInfo!["Alfred the Great"]
         
-        print(alfredInfo)
         
-        regions = testDictionary.allKeys
         
-        print(regions)
+        
+        
+//        let test = englishData.init()
+//        let testDictionary = test.houses
+//        guard let englandInfo = testDictionary["England"] else{return}
+//        guard let wessexInfo = englandInfo["Wessex"] else{return}
+//        print(wessexInfo)
+//        let alfredInfo = wessexInfo!["Alfred the Great"]
+//        
+//        print(alfredInfo)
+//      
+//        
+//        regions = testDictionary.allKeys
+        
+//        print(regions)
         
         tableView.delegate      =   self
         tableView.dataSource    =   self
@@ -70,7 +76,7 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
                     
                     for item in englishArray!{
                         print(item["houseName"])
-                        print(item["monarchs"].array?.first)
+                        print(item["monarchs"].array?.generate())
                         
                     }
  
@@ -115,8 +121,29 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
+    
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        let destination = segue.destinationViewController as! ViewController  //destination is an instance of the viewcontroller class. So now we can use properties of our destination viewcontroller to set properties (for vc class) that will be used in our next view controller.
+        
+        let senderCell = sender as! UITableViewCell
+        
+        //        var indexPath = tableView.indexPathForSelectedRow   didn't need this line why?
+        
+        let whatIsYourText = senderCell.textLabel?.text
+        
+        var unwrappedText = ""
+        
+        if let whatIsYourText = senderCell.textLabel?.text {
+            print("not nill")
+            unwrappedText = whatIsYourText
+            print(whatIsYourText)
+        }
+    
+    
+    }
     
 }

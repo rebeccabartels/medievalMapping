@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		432760271D50FE92008B1000 /* Houses.json in Resources */ = {isa = PBXBuildFile; fileRef = 432760261D50FE92008B1000 /* Houses.json */; };
 		4353602A1D537DBB0091D034 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435360291D537DBB0091D034 /* CollectionViewController.swift */; };
 		43867CA91D47980B00D62DEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43867CA81D47980B00D62DEF /* AppDelegate.swift */; };
 		43867CAB1D47980B00D62DEF /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43867CAA1D47980B00D62DEF /* FirstTableViewController.swift */; };
@@ -44,7 +43,6 @@
 		2904CA0A9F6D7A02AAEFAC82 /* Pods-medievalMapping.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-medievalMapping.release.xcconfig"; path = "Pods/Target Support Files/Pods-medievalMapping/Pods-medievalMapping.release.xcconfig"; sourceTree = "<group>"; };
 		29B692C851ED619F81A808B1 /* Pods-medievalMapping.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-medievalMapping.debug.xcconfig"; path = "Pods/Target Support Files/Pods-medievalMapping/Pods-medievalMapping.debug.xcconfig"; sourceTree = "<group>"; };
 		2C3F4253F3A81A94D3A82BCB /* Pods-medievalMappingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-medievalMappingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-medievalMappingUITests/Pods-medievalMappingUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		432760261D50FE92008B1000 /* Houses.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Houses.json; sourceTree = "<group>"; };
 		435360291D537DBB0091D034 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		43867CA51D47980B00D62DEF /* medievalMapping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = medievalMapping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43867CA81D47980B00D62DEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -142,7 +140,6 @@
 				43867CAC1D47980B00D62DEF /* Main.storyboard */,
 				43867CAF1D47980B00D62DEF /* Assets.xcassets */,
 				43867CB11D47980B00D62DEF /* LaunchScreen.storyboard */,
-				432760261D50FE92008B1000 /* Houses.json */,
 				4388973F1D5A5AC800632953 /* finishedEnglishHouses.json */,
 				43867CB41D47980B00D62DEF /* Info.plist */,
 			);
@@ -298,7 +295,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				43867CB31D47980B00D62DEF /* LaunchScreen.storyboard in Resources */,
-				432760271D50FE92008B1000 /* Houses.json in Resources */,
 				43867CB01D47980B00D62DEF /* Assets.xcassets in Resources */,
 				43867CAE1D47980B00D62DEF /* Main.storyboard in Resources */,
 				438897401D5A5AC800632953 /* finishedEnglishHouses.json in Resources */,
