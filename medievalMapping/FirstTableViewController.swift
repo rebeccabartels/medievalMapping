@@ -15,18 +15,15 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
     
     var tableView: UITableView  =   UITableView()
     
-    var regions = []
+    var houses = JSON.parse("Houses")
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         readJsonFromFile()
         
-        
-        
-        
-        
-        
+     
+
 //        let test = englishData.init()
 //        let testDictionary = test.houses
 //        guard let englandInfo = testDictionary["England"] else{return}
@@ -43,26 +40,19 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
         
         tableView.delegate      =   self
         tableView.dataSource    =   self
-        
         tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "cell")
-        
         self.view.addSubview(tableView)
-        
         tableView.translatesAutoresizingMaskIntoConstraints = false
-        
         tableView.leadingAnchor.constraintEqualToAnchor(view.leadingAnchor).active = true
         tableView.trailingAnchor.constraintEqualToAnchor(view.trailingAnchor).active = true
         tableView.topAnchor.constraintEqualToAnchor(view.topAnchor).active = true
         tableView.bottomAnchor.constraintEqualToAnchor(view.bottomAnchor).active = true
-        
-        
     }
+    
     
     
     func readJsonFromFile() -> NSDictionary{
         var returnDict = [:]
-        
-        
         
         if let path = NSBundle.mainBundle().pathForResource("finishedEnglishHouses", ofType: "json")
         {
@@ -77,6 +67,7 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
                     for item in englishArray!{
                         print(item["houseName"])
                         print(item["monarchs"].array?.generate())
+                    
                         
                     }
  
@@ -98,16 +89,16 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.regions.count
+        return self.houses.count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCellWithIdentifier("cell")! as UITableViewCell
         
-        let eachRegion = regions[indexPath.row] as? String
+        let eachHouse = houses[indexPath.row] as? String
         
-        cell.textLabel?.text = eachRegion
+        cell.textLabel?.text = eachHouse
         
         return cell
         
