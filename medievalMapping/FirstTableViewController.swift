@@ -21,8 +21,6 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
         super.viewDidLoad()
         
         readJsonFromFile()
-        
-     
 
 //        let test = englishData.init()
 //        let testDictionary = test.houses
