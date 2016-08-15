@@ -30,8 +30,6 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
 //        let alfredInfo = wessexInfo!["Alfred the Great"]
 //        
 //        print(alfredInfo)
-//      
-//        
 //        regions = testDictionary.allKeys
         
 //        print(regions)
